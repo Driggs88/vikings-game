@@ -1,9 +1,13 @@
 .full-page{
-  height: 110vh;
+  height: 120vh;
   background: url('images/glacier.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+.indicator{
+  border: 10px solid red;
+}
+
 .viking-pic{
   width: 100px;
 }
@@ -25,7 +29,7 @@
   margin-left: 75px;
 }
 
-.viking-box, .saxon-box{
+.viking-box, .saxon-box, .death-box{
   display: inline-block;
   margin: 15px;
 }
@@ -39,5 +43,26 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;
 font-weight:bold;
+}
 
+.info{
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+font-weight:bold;
+min-height: 100px;
+text-align: center;
+padding: 15px;
+font-size: 20px;
+}
+
+.result{
+  width: 100%;
+}
+
+.health, .strength{
+  text-align: center;
 }
